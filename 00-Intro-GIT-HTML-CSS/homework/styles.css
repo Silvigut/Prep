@@ -1,0 +1,20 @@
+
+ h1 {
+     color: crimson;
+    }
+
+ img {
+     width: 400;
+    }
+
+ #thirdDiv {background-color:gray;
+    padding: 50;
+    right: 600;
+    width:500; 
+    border: double ;
+}
+
+ #spanId {
+     font-size: 25px;
+     margin:50px;
+ }
