@@ -1,0 +1,53 @@
+Variables
+Una variable es una manera de asignar valor a lago que se puede utilizar despues, a esto se le llama
+ "declarar una variable" , en Js se puede asignar valor cuando se declara o luego.
+ La forma de declarar una variable son :
+ var algo= x;
+ let algo= x;
+ const algo=x;
+ 
+Strings
+Una Strings es un valor de tipo texto que se puede asignar a una variable y la forma
+correcta de asignarlo es utilizando "".
+
+Funciones
+Las funciones son objetos que se utilizan en Js para invocar diferenctes variables 
+y hacer que se calculen , cambien de valor , etc.
+ estructura de una funcion es la siguiente:
+
+ function 'nombredelafuncion' (aca van los argumentos) {aca va todo el codigo a ejecutar}
+
+Argumentos de funciones
+los argumentos son variables que se les puede asignar a una funcion para iniciar dicha variable.
+ejemplo
+var="nombre";
+function saludo(nombre){
+    return ("hola"+ nombre);
+}
+
+return
+La declaracion "Return" es la unica forma de obtener el resultado en una funcion.
+Cuando la funcion llega a la declaracion return imendiatamente se detiene y devuelve lo especificado.
+
+Declaraciones if
+Las declaraciones if son un tipo de operadores de comparacion que se ultilizan en las funciones
+para determinar si algo se cumple o no se cumple.. entonces devolvel o realiza determinada accion.
+
+Valores booleanos (true, false)
+los valores booleanos son utilizados para detemrinar si algo es verdadero(true) o falso (false)
+
+for
+La exprescion For evalua en bucle una y otra
+ vez hasta que devuelve lo que se esta buscando o se detiene 
+ después de cierto tiempo. La sintaxis es la siguiente:
+ 
+ for (let i = 0                     ; i < 10                 ; i++          ) {
+// | Declaramos una variable | Expresión condicional | Incrementamos la variable |
+    console.log(i);
+}
+
+&&, ||, !
+Son tipos operadores logicos utilizados para indicar en JS una accion a realzar
+&&: es el quivalente a y/ademas
+||: es el quivalente a o/u
+ !: es equivalente a no
