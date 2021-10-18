@@ -219,6 +219,14 @@ function doWhile(numero) {
   return numero;
 }
 
+// var i=0;
+// while (i<8) {
+//   numero =numero+5;
+//   i++;
+//   return numero
+
+// }
+
 
 
 // No modificar nada debajo de esta línea
